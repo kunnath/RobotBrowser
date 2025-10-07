@@ -25,7 +25,7 @@ def cleanup_browser_use_temp_files(temp_dir="/tmp", days_old=1, dry_run=True):
     # We'll check both common locations
     temp_paths = [
         temp_dir,
-        "/var/folders/rp/p5482cg53m780jj0yk1cpwyr0000gn/T/",
+        "/var/folders/rp/p5482cg53m780jj0yk1cpwyr/T/",
         "/tmp"
     ]
     
