@@ -60,6 +60,30 @@ streamlit run demo/app.py
 - Click **Generate Report** to create the HTML report.
 - Access reports and screenshots in the `automation_reports/` folder.
 
+#### Example Inputs
+
+**URL:**  
+```
+https://www.bbc.com/news
+```
+
+**Task Description:**  
+```
+Extract the headlines from the main news section and take screenshots of the top three articles.
+```
+
+**Another Example**
+
+**URL:**  
+```
+https://www.wikipedia.org/
+```
+
+**Task Description:**  
+```
+Search for "Artificial Intelligence", capture the summary section, and take a screenshot of the results page.
+```
+
 ### Copy and Organize Reports
 
 Use the utility script to copy reports:
